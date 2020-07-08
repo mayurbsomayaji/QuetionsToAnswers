@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Q TO A WELCOMES YOU</title>
+        <link rel="stylesheet" href="css4/mystyle3.css">
+    </head>
+    <boby>
+        <script>
+            function myFunction()
+            {
+                var id = document.getElementById('USN').value;
+                var password = document.getElementById('password').value;
+                console.log(id,password)
+                if((id==='2BL19CS049' || id==='2bl19cs049') && password==='MANIKmayur@12'){window.location.replace('QTOA.html');}
+                else if ((id==='2BL19CS002'|| id==='2bl19cs002') && password==='ABHISHEK@12'){window.location.replace('QTOA.html'); }
+                else if ((id==='2BL19CS031'|| id==='2bl19cs031') && password==='CHINMAY@12'){window.location.replace('QTOA.html'); }
+                else if ((id==='2BL19CS035'|| id==='2bl19cs035' )&& password==='Govind@12'){window.location.replace('QTOA.html'); }
+                else{alert("YOU HAVE ENTERED INVLID INPUT PLEASE CHECK");}
+            }
+        </script>
+        <div class="signin">
+            <form>
+            <h2 style="color: white;">Log In</h2>
+            <input id="USN" type="text" name="USN" placeholder="USN">
+            <input id="password" type="password" name="password" placeholder="password"><br><br>
+            <input type="button" onclick="myFunction();"value="Log In"><br>
+            <br>
+            <div id="container">
+                <a href="rp.html" style="margin-right: 0px; font-size: 13px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Reset password</a>
+                <a href="fp.html" style="margin-right: 0px; font-size: 13px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Forget password</a>
+            </div><br><br><br><br>
+            Don't have account?<a href="sign up.html" style="font-family: sans-serif;">&nbsp; Sign up</a> 
+            </form>
+        </div>
+       
+    
+    </boby>
+</html>

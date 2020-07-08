@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(study.jpg);
+    background-size: cover;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-bar{
+    background:black;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+}
+.menu-bar ul li{
+    width: 120px;
+    height: 40px;
+    margin-top: 25px;
+    padding: -15px
+    border-radius: 8px 16px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active:hover{
+    background:grey;
+    border-radius: 2px;
+}
+.menu-bar ul li:hover{
+    background: black;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 2px;
+    color: black;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position:absolute;
+    background:black;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 20px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 120px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0px;
+    text-align: center;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
